@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #b39a8e;
+}
+
+.navbar{
+    padding: 4px;
+    background-color: #DEC2B4;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar img{
+    width: 100px;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    background-color: #DEC2B4
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #DEC2B4;
+    box-shadow: 10px black;
+}
+
+.navbar .buttons{
+    width: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #DEC2B4;
+}
+.navbar .buttons .signin{
+background-color: #DEC2B4;
+ }
+
+.navbar .buttons a{
+   text-decoration: none;
+   color: black;
+}
